@@ -31,6 +31,8 @@ Hinweis: Die UserClient.exe sollte nach benutzen durch den Taskmanager geschloss
 
 ## BörsenServer
 
+Wenn man das Programm neu baut sollte man zuvor seinen eigenen API-Key in der entsprechenden Variablen am Anfang der Program-Klasse eintragen. Dieser kann kostenlos auf finnhub.io beantragt werden.
+
 Nachdem starten muss der Name der Börse eingegeben werden.
 Da nur 3 verschiedene Börsen auf dem UserClient unterstützt werden, sollte der des BörsenServers einer der folgenden sein: "Frankfurt", "Stuttgart" oder "München".
 
