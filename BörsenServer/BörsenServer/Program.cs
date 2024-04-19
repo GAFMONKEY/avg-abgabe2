@@ -94,11 +94,9 @@ namespace BörsenServer
             {
                 try
                 {
-                    // Send a GET request to the specified Uri as an asynchronous operation.
                     HttpResponseMessage response = await client.GetAsync($"https://finnhub.io/api/v1/quote?symbol={aktie}&token=cob38rpr01qr8aa3oi8gcob38rpr01qr8aa3oi90");
                     response.EnsureSuccessStatusCode(); // Throw if not a success code.
 
-                    // Read response content as a string asynchronously.
                     return await response.Content.ReadAsStringAsync();
                 }
                 catch (HttpRequestException e)
