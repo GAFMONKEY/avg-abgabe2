@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "YBwa7zyxHjzM2LTpLlhUCuxIbbESKrk8165k1G+ig58C41E/vhUyy8eqBZJ9iz3j9mx1B+9KDDXEVWJGqUyfpw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Dennis\\source\\repos\\BörsenServer\\BörsenServer\\BörsenServer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Dennis\\.nuget\\packages\\amqpnetlite.core\\2.4.3\\amqpnetlite.core.2.4.3.nupkg.sha512",
+    "C:\\Users\\Dennis\\.nuget\\packages\\apache.nms\\2.0.0\\apache.nms.2.0.0.nupkg.sha512",
+    "C:\\Users\\Dennis\\.nuget\\packages\\apache.nms.amqp\\2.2.0\\apache.nms.amqp.2.2.0.nupkg.sha512",
+    "C:\\Users\\Dennis\\.nuget\\packages\\system.threading.tasks.dataflow\\4.9.0\\system.threading.tasks.dataflow.4.9.0.nupkg.sha512"
+  ],
+  "logs": []
+}
