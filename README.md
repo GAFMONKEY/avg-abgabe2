@@ -27,6 +27,8 @@ Um nun eine Buy oder Sell Order abzusetzen, muss rechts die jeweilige Börse aus
 
 Daraufhin erscheint die Order im Textfeld unten links. Der Status ist anfangs auf "pending" gesetzt. Wenn nun die Response des jeweilgen BörsenServers eingeht, d.h. die Order bearbeitet wurde, wird der Status der zugehörigen Bestellung automatisch auf "successful" gesetzt.
 
+Hinweis: Die UserClient.exe sollte nach benutzen durch den Taskmanager geschlossen werden.
+
 ## BörsenServer
 
 Nachdem starten muss der Name der Börse eingegeben werden.
