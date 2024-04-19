@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "nvKQVCkep3gEWkHmNwsBagnq8x1TBaRrPA7epfNc5gFCddO6Tab+GOSZ81YUR0iBX9EK3vtamEMMdoLOIhI+8g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Dennis\\source\\repos\\AktienClient\\AktienClient\\UserClient.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Dennis\\.nuget\\packages\\amqpnetlite.core\\2.4.3\\amqpnetlite.core.2.4.3.nupkg.sha512",
+    "C:\\Users\\Dennis\\.nuget\\packages\\apache.nms\\2.0.0\\apache.nms.2.0.0.nupkg.sha512",
+    "C:\\Users\\Dennis\\.nuget\\packages\\apache.nms.amqp\\2.2.0\\apache.nms.amqp.2.2.0.nupkg.sha512",
+    "C:\\Users\\Dennis\\.nuget\\packages\\system.threading.tasks.dataflow\\4.9.0\\system.threading.tasks.dataflow.4.9.0.nupkg.sha512"
+  ],
+  "logs": []
+}
