@@ -36,4 +36,4 @@ Der BörsenServer sendet nun alle 30 Sekunden die aktuellen Aktienpreise der 5 B
 Die Preise entstammen der API von finnhub.io.
 
 Desweiteren lauscht der BörsenServer nach Order Requests auf der jeweiligen Message Queue mit dem Namen "orders.{BörsenServerName}".\
-Wenn ein Order Request eingeht, sendet der BörsenServer nach 15 Sekunden ein Response mit der OrderId an den jeweiligen Client über eine Queue um die Order zu bestätigen.
+Wenn ein Order Request eingeht, sendet der BörsenServer nach 15 Sekunden ein Response mit der Order ID an den jeweiligen Client über eine Queue um die Order zu bestätigen.
