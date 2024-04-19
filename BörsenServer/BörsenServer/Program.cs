@@ -6,6 +6,8 @@ namespace BörsenServer
 {
     internal class Program
     {
+        readonly static string apiKey = ""; // Hier eigenen API-Key eintragen
+        
         static Dictionary<string, string> responses = new Dictionary<string, string>();
         static Dictionary<string, double> stockPrices = new Dictionary<string, double>();
         static List<string> stocks = new List<string> { "AAPL", "MSFT", "AMZN", "NVDA", "AMD" };
@@ -92,8 +94,8 @@ namespace BörsenServer
             {
                 try
                 {
-                    HttpResponseMessage response = await client.GetAsync($"https://finnhub.io/api/v1/quote?symbol={aktie}&token=cob38rpr01qr8aa3oi8gcob38rpr01qr8aa3oi90");
-                    response.EnsureSuccessStatusCode(); // Throw if not a success code.
+                    HttpResponseMessage response = await client.GetAsync($"https://finnhub.io/api/v1/quote?symbol={aktie}&token={apiKey}");
+                    response.EnsureSuccessStatusCode();
 
                     return await response.Content.ReadAsStringAsync();
                 }
